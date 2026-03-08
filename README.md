@@ -5,7 +5,8 @@ Ikea DIRIGERA metrics exporter for Prometheus
 TBD
 
 # Get raw data from hub
-TBD
+curl -k -H "Authorization: Bearer YOUR-TOKEN" \
+https://HUB_LOCAL_IP:8443/v1/devices
 
 # prometheus.yml
 scrape_configs:
