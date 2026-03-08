@@ -1,7 +1,7 @@
-# ikea-exporter
+## ikea-exporter
 Ikea DIRIGERA metrics exporter for Prometheus
 
-# Bearer token
+## Bearer token
 ```
  $ python3 -m venv ikea
  $ source ikea/bin/activate
@@ -10,14 +10,14 @@ Ikea DIRIGERA metrics exporter for Prometheus
  $ deactivate
 ```
 
-# Get raw data from hub
+## Get raw data from hub
 ```
-curl -k -H "Authorization: Bearer YOUR-TOKEN" \
-https://HUB_LOCAL_IP:8443/v1/devices
+curl -k -H "Authorization: Bearer <YOUR-TOKEN>" \
+https://<HUB_LOCAL_IP>:8443/v1/devices
 ```
 
 
-# prometheus.yml
+## prometheus.yml
 ```
 scrape_configs:
   - job_name: 'ikea-exporter'
