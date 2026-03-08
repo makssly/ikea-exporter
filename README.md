@@ -2,7 +2,11 @@
 Ikea DIRIGERA metrics exporter for Prometheus
 
 # Bearer token
-TBD
+ $ python3 -m venv ikea
+ $ source ikea/bin/activate
+ $ pip install dirigera
+ $ generate-token <HUB_LOCAL_IP>
+ $ deactivate
 
 # Get raw data from hub
 curl -k -H "Authorization: Bearer YOUR-TOKEN" \
