@@ -1,6 +1,12 @@
 # ikea-exporter
 Ikea DIRIGERA metrics exporter for Prometheus
 
+# Bearer token
+TBD
+
+# Get raw data from hub
+TBD
+
 # prometheus.yml
 scrape_configs:
   - job_name: 'ikea-exporter'
